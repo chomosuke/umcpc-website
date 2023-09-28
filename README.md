@@ -2,4 +2,4 @@
 
 Repository for the new University of Competitive Programming Club website.
 
-This website is live, hosted on Vercel at the domain www.umcpc.org
+This website is alive, hosted on Vercel at the domain umcpc.club
