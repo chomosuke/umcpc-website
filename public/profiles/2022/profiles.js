@@ -1,64 +1,63 @@
-export const PROFILE_PATH = '/profiles'
+export const PROFILE_PATH = '/profiles/2022'
 
 export const COMMITTEE = {
   executives: [
     {
       id: 1,
-      name: 'Quang Anh Trinh',
+      name: 'Michael Zhao',
       title: 'President',
-      img: '/quang.png',
-      text: '',
+      img: '/michael.png',
+      text: "Hi I'm Michael and I love F1! 🏎",
     },
     {
       id: 2,
       name: 'Jonathan El-Khoury',
       title: 'Vice President',
-      img: '/2022/jono.jpeg',
+      img: '/jono.jpeg',
       text: "Hey! I'm Jono!",
     },
     {
       id: 3,
-      name: 'Jack Gardiner',
+      name: 'Kyla Canares',
       title: 'Secretary',
-      img: '/jack.png',
-      text: "Hi, I'm Jack.",
+      img: '/kyla.jpeg',
+      text: '',
     },
     {
       id: 4,
-      name: 'Richard Li',
+      name: 'Hao Xu',
       title: 'Treasurer',
-      img: '/richard.jpg',
-      text: 'Splay Tree is the Ultimate Binary Search Tree.',
+      img: '/hao.jpg',
+      text: "Hi! I'm Hao! I like building websites ✌",
     },
   ],
-
   general: [
     {
       id: 1,
       name: 'Kahsheng Lee',
       title: 'Communications Officer',
-      img: '/2022/kahsheng.png',
+      img: '/kahsheng.png',
       text: '',
     },
     {
       id: 2,
-      name: 'Natalie Lam',
+      name: 'Quang Ong',
       title: 'General Committee',
-      img: '/natalie.jpg',
-      text: '',
+      img: '/quang.png',
+      text: 'Have you heard of our lord and saviour, the almighty segtree? 🌳',
     },
     {
       id: 3,
       name: 'Risa Pais',
       title: 'General Committee',
-      img: '/2022/risa.png',
+      img: '/risa.png',
       text: '',
     },
     {
       id: 4,
       name: 'Tugsgerel L.',
       title: 'General Committee',
-      img: '/2022/tugsgerel.png',
+      img: '/tugsgerel.png',
       text: '',
     },
   ],

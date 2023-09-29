@@ -1,15 +1,30 @@
 import React, { useEffect, useState } from 'react'
-import { COMMITTEE, EXECUTIVES } from '../../public/profiles/profiles'
+import { COMMITTEE, PROFILE_PATH } from '../../public/profiles/profiles'
+import * as c2022 from '../../public/profiles/2022/profiles'
 import Member from './Member'
 
 const Committee = () => {
-  const [executives, setExecutives] = useState([{}])
-  const [committee, setCommittee] = useState([{}])
+  const past = [{ year: '2022', content: c2022 }]
+  return (
+    <>
+      <Year profilePath={PROFILE_PATH} committee={COMMITTEE} />
+      {past.map(({ year, content: c }) => {
+        const { PROFILE_PATH, COMMITTEE } = c
+        return (
+          <>
+            <h1 className="page-header-font sticky top-0 z-50 text-center pb-16">
+              2022 Committee
+            </h1>
+            <Year profilePath={PROFILE_PATH} committee={COMMITTEE} />
+          </>
+        )
+      })}
+    </>
+  )
+}
 
-  useEffect(() => {
-    setExecutives(EXECUTIVES)
-    setCommittee(COMMITTEE)
-  }, [])
+const Year = ({ profilePath, committee }) => {
+  const { general, executives } = committee
 
   return (
     <>
@@ -28,6 +43,7 @@ const Committee = () => {
                   title={mem.title}
                   img={mem.img}
                   text={mem.text}
+                  profilePath={profilePath}
                 />
               )
             })}
@@ -38,7 +54,7 @@ const Committee = () => {
             General Committee
           </h1>
           <div className="grid grid-cols-1 gap-0 sm:grid-cols-2 justify-items-center">
-            {committee.map((mem) => {
+            {general.map((mem) => {
               return (
                 <Member
                   key={mem.id}
@@ -46,6 +62,7 @@ const Committee = () => {
                   title={mem.title}
                   img={mem.img}
                   text={mem.text}
+                  profilePath={profilePath}
                 />
               )
             })}
