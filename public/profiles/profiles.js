@@ -49,9 +49,9 @@ export const COMMITTEE = {
     },
     {
       id: 3,
-      name: 'Risa Pais',
+      name: 'Michael Manoussakis',
       title: 'General Committee',
-      img: '/2022/risa.png',
+      img: '/michael.jpg',
       text: '',
     },
     {
