@@ -11,10 +11,10 @@ export const COMMITTEE = {
     },
     {
       id: 2,
-      name: 'Jonathan El-Khoury',
+      name: 'Nguyễn Đình Phúc',
       title: 'Vice President',
-      img: '/2022/jono.jpeg',
-      text: "Hey! I'm Jono!",
+      img: '/phuc.png',
+      text: 'Schrodingers cat is my pet',
     },
     {
       id: 3,
@@ -35,9 +35,9 @@ export const COMMITTEE = {
   general: [
     {
       id: 1,
-      name: 'Kahsheng Lee',
+      name: 'Justin Lee',
       title: 'Communications Officer',
-      img: '/2022/kahsheng.png',
+      img: '/justin.png',
       text: '',
     },
     {
@@ -56,9 +56,9 @@ export const COMMITTEE = {
     },
     {
       id: 4,
-      name: 'Tugsgerel L.',
+      name: 'Giáp Vũ',
       title: 'General Committee',
-      img: '/2022/tugsgerel.png',
+      img: '/giap.png',
       text: '',
     },
   ],
