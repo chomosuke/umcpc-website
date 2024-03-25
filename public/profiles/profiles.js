@@ -43,7 +43,7 @@ export const COMMITTEE = {
     {
       id: 2,
       name: 'Natalie Lam',
-      title: 'General Committee',
+      title: 'General Committee (Social Media Manager)',
       img: '/natalie.png',
       text: '',
     },
