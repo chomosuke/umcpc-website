@@ -35,27 +35,20 @@ export const COMMITTEE = {
   general: [
     {
       id: 1,
-      name: 'Justin Lee',
-      title: 'Communications Officer',
-      img: '/justin.png',
-      text: '',
-    },
-    {
-      id: 2,
       name: 'Natalie Lam',
       title: 'General Committee (Social Media Manager)',
       img: '/natalie.png',
       text: '',
     },
     {
-      id: 3,
+      id: 2,
       name: 'Michael Manoussakis',
       title: 'General Committee',
       img: '/michael.jpg',
       text: '',
     },
     {
-      id: 4,
+      id: 3,
       name: 'Giáp Vũ',
       title: 'General Committee',
       img: '/giap.png',
