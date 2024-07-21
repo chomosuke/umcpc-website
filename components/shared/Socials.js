@@ -29,8 +29,8 @@ function Socials() {
         </div>
       </a>
       <a href="https://instagram.com/unimelbcpc">
-        <div className="social-icon bg-[#5865F2]">
-          <div className="h-3 sm:h-6 w-4 sm:w-8 relative">
+        <div className="social-icon">
+          <div className="h-6 sm:h-10 w-6 sm:w-10 relative">
             <Image
               src="/branding/instagram.svg"
               alt="Instagram Logo"

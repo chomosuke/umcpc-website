@@ -68,7 +68,7 @@ body {
 }
 
 .social-icon {
-  @apply flex justify-center items-center h-6 sm:h-10 w-6 sm:w-10 rounded;
+  @apply flex justify-center items-center h-6 sm:h-10 w-6 sm:w-10 rounded-lg;
 }
 
 .member-tooltip {
