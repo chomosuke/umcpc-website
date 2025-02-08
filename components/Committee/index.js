@@ -1,10 +1,14 @@
 import React, { useEffect, useState } from 'react'
-import { COMMITTEE, PROFILE_PATH } from '../../public/profiles/profiles'
+import { COMMITTEE, PROFILE_PATH } from '../../public/profiles/2025/profiles'
 import * as c2022 from '../../public/profiles/2022/profiles'
+import * as c2024 from '../../public/profiles/2024/profiles'
 import Member from './Member'
 
 const Committee = () => {
-  const past = [{ year: '2022', content: c2022 }]
+  const past = [
+    { year: '2024', content: c2024 },
+    { year: '2022', content: c2022 },
+  ]
   return (
     <>
       <Year profilePath={PROFILE_PATH} committee={COMMITTEE} />
@@ -13,7 +17,7 @@ const Committee = () => {
         return (
           <>
             <h1 className="page-header-font sticky top-0 z-50 text-center pb-16">
-              2022 Committee
+              {year} Committee
             </h1>
             <Year profilePath={PROFILE_PATH} committee={COMMITTEE} />
           </>

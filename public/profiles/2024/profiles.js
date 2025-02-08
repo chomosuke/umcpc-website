@@ -1,4 +1,4 @@
-export const PROFILE_PATH = '/profiles'
+export const PROFILE_PATH = '/profiles/2024'
 
 export const COMMITTEE = {
   executives: [
