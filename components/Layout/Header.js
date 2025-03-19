@@ -50,8 +50,14 @@ const Header = () => {
               <a href="https://drive.google.com/drive/folders/1hrFqLIvPOfRXELWysU0PiBVvh8l-INL_?usp=sharing">
                 <button className="header-btn pb-1">Resources</button>
               </a>
+              <a href="https://aware-somersault-1ad.notion.site/umcpc">
+                <button className="header-btn pb-1">Learning</button>
+              </a>
             </div>
-            <a className="rounded-btn ml-4" href="https://umsu.unimelb.edu.au/buddy-up/clubs/clubs-listing/join/6517/">
+            <a
+              className="rounded-btn ml-4"
+              href="https://umsu.unimelb.edu.au/buddy-up/clubs/clubs-listing/join/6517/"
+            >
               Join us
             </a>
           </div>
