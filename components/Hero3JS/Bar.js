@@ -7,14 +7,11 @@ function Bar({ position }) {
   const [active, setActive] = useState(0)
   const [hovered, hover] = useState(false)
 
-  const { spring } = useSpring({
-    spring: hovered,
-    config: { mass: 5, tension: 400, friction: 50, precision: 0.0001 },
+  const { scale, rotation, color } = useSpring({
+    scale: hovered ? 1.3 : 1,
+    color: hovered ? '#11EA4E' : '#4F89CE',
+    config: { mass: 15, tension: 999, friction: 60, precision: 0.0001 },
   })
-
-  const scale = spring.to([0, 1], [1, 1.5])
-  const rotation = spring.to([0, 1], [0, 0.5 * Math.PI])
-  const color = spring.to([0, 1], ['#4F89CE', '#81EC4E'])
 
   return (
     <a.mesh
@@ -22,7 +19,8 @@ function Bar({ position }) {
       ref={ref}
       rotation-y={rotation}
       scale={scale}
-      onClick={() => setActive(Number(!active))}
+      //onPointerOver={() => setActive(Number(true))}
+      //onPointerOut={() => setActive(Number(false))}
       onPointerOver={(event) => hover(true)}
       onPointerOut={(event) => hover(false)}
     >
