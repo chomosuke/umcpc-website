@@ -21,9 +21,8 @@ const Events = () => {
       }`}
     >
       <div className="flex-1 overflow-y-scroll">
-        <h1 className="page-header-font text-center mb-10 h-20 header-underline mb-4">
-          {' '}
-          Upcoming Events
+        <h1 className="page-header-font mb-10 h-20 header-underline mb-4">
+          Upcoming events
         </h1>
         <div className="grid grid-cols-3 gap-4 mx-10">
           {getEvents(events, true).map((event, i) => (
@@ -42,9 +41,8 @@ const Events = () => {
             </div>
           ))}
         </div>
-        <h1 className="page-header-font header-underline text-center my-10 h-20 mb-4 text-align-middle">
-          {' '}
-          Past Events{' '}
+        <h1 className="page-header-font header-underline  my-10 h-20 mb-4 text-align-middle">
+          Past events
         </h1>
         <div className="grid grid-cols-3 grid-rows-5 gap-4 mx-10">
           {getEvents(events, false).map((event, i) => (
