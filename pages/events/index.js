@@ -26,7 +26,7 @@ const Events = () => {
         </h1>
         <div className="grid grid-cols-3 gap-4 mx-10">
           {getEvents(events, true).map((event, i) => (
-            <div className="card">
+            <div className="card" key={i}>
               <div className="container">
                 <h2 className="text-xl font-bold text-center">{event.name}</h2>
                 <hr />
@@ -46,7 +46,7 @@ const Events = () => {
         </h1>
         <div className="grid grid-cols-3 grid-rows-5 gap-4 mx-10">
           {getEvents(events, false).map((event, i) => (
-            <div className="card">
+            <div className="card" key={i}>
               <div className="container">
                 <h1 className="font-bold text-center text-xl">{event.name}</h1>
                 <hr />
