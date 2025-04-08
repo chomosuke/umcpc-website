@@ -1,44 +1,23 @@
 [
   {
-    "name": "Airwallex Competition",
-    "description": "Airwallex Competition description",
+    "name": "🧠 Airwallex Competition 🧠",
+    "description": "Airwallex Competition was so fun",
     "date": "03-27-25",
     "time": "16:00-21:00",
     "location": "Melbourne Connect Science Gallery"
   },
   {
-    "name": "testtt",
-    "description": "Dynamic Programming Workshop description",
-    "date": "04-19-25",
-    "time": "17:00-19:00",
-    "location": "Chemistry Building Room 158"
-  },
-  {
-    "name": "testing",
-    "description": "Dynamic Programming Workshop description",
-    "date": "04-19-25",
-    "time": "17:00-19:00",
-    "location": "Chemistry Building Room 158"
-  },
-  {
-    "name": "testineee",
-    "description": "Dynamic Programming Workshop description",
-    "date": "04-29-25",
-    "time": "17:00-19:00",
-    "location": "Chemistry Building Room 158"
-  },
-  {
-    "name": "Dynamic Programming Workshop",
-    "description": "Dynamic Programming Workshop description",
+    "name": " 🔥 Dynamic Programming 🔥 Workshop",
+    "description": "for ppl who want to learn dp and eat pizza",
     "date": "04-09-25",
     "time": "17:00-19:00",
     "location": "Chemistry Building Room 158"
   },
   {
-    "name": "SPAR 3 Full Sprint?",
-    "description": "spar full sprint 3",
+    "name": "🏃‍♂️‍➡️ SPAR 3 Full Sprint? 🏃‍♂️",
+    "description": "for some icpc practice",
     "date": "04-24-25",
-    "time": "12:00-19:00",
-    "location": "Chemistry Building"
+    "time": "tbd",
+    "location": "tbd"
   }
 ]

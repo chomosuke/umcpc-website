@@ -14,6 +14,14 @@ body {
   padding: 0px;
   overflow-x: hidden;
 }
+.fade-in {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.fade-in.show {
+  opacity: 1;
+}
 
 .header-font {
   @apply text-white font-raleway font-extrabold text-4xl lg:text-5xl 2xl:text-6xl;
@@ -48,7 +56,7 @@ body {
 }
 
 .header-btn {
-  @apply btn-font decoration-0 decoration-club-blue-900 transition-all ease-linear delay-500 hover:underline hover:underline-offset-4 hover:decoration-4 hover:decoration-club-blue-400 mr-4;
+  @apply btn-font decoration-0 decoration-club-blue-900 transition-all ease-linear hover:underline hover:underline-offset-4 hover:decoration-4 hover:scale-105 hover:decoration-club-blue-400 mr-4;
 }
 
 .header-underline {
@@ -81,17 +89,24 @@ body {
 }
 
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  @apply bg-club-blue-200 font-raleway;
-  transition: 0.3s;
+  @apply bg-gradient-to-br from-club-blue-300 to-cyan-300 font-raleway h-60 rounded-[1vw] content-center border-4 border-club-blue-600;
+  transition: transform 0.3s ease, background 0.3s ease, color 0.3s ease;
 }
 
 .card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  transform: scale(1.01);
+  color: white;
+  box-shadow: 0 0 20px rgba(23, 51, 83, 0.5);
+  border-color: #ffffffaa;
+  background: linear-gradient(
+    135deg,
+    theme('colors.club-blue.500'),
+    theme('colors.club-blue.700', '#112233')
+  );
 }
-
 .container {
-  padding: 2px 16px;
+  padding: 15px 40px;
+  border: 4px;
 }
 
 /* 
