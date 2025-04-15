@@ -1,0 +1,23 @@
+[
+  {
+    "name": "🧠 Airwallex Competition 🧠",
+    "description": "Airwallex Competition was so fun",
+    "date": "03-27-25",
+    "time": "16:00-21:00",
+    "location": "Melbourne Connect Science Gallery"
+  },
+  {
+    "name": " 🔥 Dynamic Programming 🔥 Workshop",
+    "description": "for ppl who want to learn dp and eat pizza",
+    "date": "04-09-25",
+    "time": "17:00-19:00",
+    "location": "Chemistry Building Room 158"
+  },
+  {
+    "name": "🏃‍♂️‍➡️ SPAR 3 Full Sprint? 🏃‍♂️",
+    "description": "for some icpc practice",
+    "date": "04-24-25",
+    "time": "tbd",
+    "location": "tbd"
+  }
+]
