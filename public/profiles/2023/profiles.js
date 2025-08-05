@@ -51,7 +51,7 @@ export const COMMITTEE = {
       id: 3,
       name: 'Nguyễn Đình Phúc',
       title: 'General Committee',
-      img: '/phuc.jpg',
+      img: '/phuc.png',
       text: 'Schrodingers cat is my pet',
     },
     {
