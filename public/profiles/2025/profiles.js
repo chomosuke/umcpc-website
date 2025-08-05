@@ -58,7 +58,7 @@ export const COMMITTEE = {
       id: 4,
       name: 'Jummana Al-Shimary',
       title: 'General Committee',
-      img: '/tmp-profile.jpeg',
+      img: '/jum.jpg',
       text: '',
     },
   ],
