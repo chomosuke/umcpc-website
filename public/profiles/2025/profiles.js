@@ -51,7 +51,7 @@ export const COMMITTEE = {
       id: 3,
       name: 'Honey Raut',
       title: 'General Committee',
-      img: '/tmp-profile.jpeg',
+      img: '/honey.jpg',
       text: '',
     },
     {
