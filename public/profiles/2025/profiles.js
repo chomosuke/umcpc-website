@@ -37,8 +37,8 @@ export const COMMITTEE = {
       id: 1,
       name: 'Lionel Liu',
       title: 'Communications Officer',
-      img: '/tmp-profile.jpeg',
-      text: '',
+      img: '/lionel.jpg',
+      text: 'i <3 cp',
     },
     {
       id: 2,
