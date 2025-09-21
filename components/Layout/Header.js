@@ -24,9 +24,9 @@ const Header = () => {
             <Link href="/" passHref>
               <button>
                 <div className="flex flex-row items-center space-x-3 md:space-x-0 md:flex-col">
-                  <div className="h-5 md:h-14 w-5 md:w-14 relative">
+                  <div className="h-20 md:h-10 w-28 md:w-14 relative">
                     <Image
-                      src="/branding/club-logo.svg"
+                      src="/terry-bd.png"
                       alt="UMCPC Logo"
                       layout="fill"
                       objectFit="cover"
